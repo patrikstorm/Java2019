@@ -53,7 +53,7 @@ public class Teacher implements Serializable {
     }
 
     public List<Course> getCourses() {
-      
+
         return this.courses;
     }
 
@@ -72,7 +72,7 @@ public class Teacher implements Serializable {
 
     @Override
     public String toString() {
-        return "Teacher{" + "id=" + id + ", name=" + name + courses+ '}';
+        return "Teacher{" + "id=" + id + ", name=" + name + "||" + courses + '}';
     }
 
 }

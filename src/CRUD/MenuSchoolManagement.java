@@ -149,7 +149,7 @@ public class MenuSchoolManagement {
 
                     em.getTransaction().commit();
 
-                    System.out.println(foundStudent + " " + foundStudent.getEducation());
+                    System.out.println(foundStudent);
                 } catch (Exception e) {
                     System.out.println("Exception occured");
                 }
